@@ -1,0 +1,4 @@
+docker build . -t vod-demo:0.1
+
+
+docker run --name vod-demo -p 8080:8080 -d -it vod-demo:0.1
